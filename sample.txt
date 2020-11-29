@@ -1,0 +1,18 @@
+elasticsearch:
+in this file provide the prerequisite, install and set-up for the Elasticsearch
+	1. install java using yum command
+	2. download the tar file for elasticsearch using wget
+	3. untar the downloaded file
+ 	4. to set-up the elastic search to port "http://localhost:9201"
+
+providers:
+In this we are using the terraform provider as AWS cloud 
+checkout the VM from us-east-1 region
+ 
+Resourse:
+using resourses like key_pair and instance based on providers
+1. launch the aws ec2 t2.micro instance using ami
+2. using public key
+3. give the permission for execute the elastic search file using chmod
+4. connecting the machine using default user ec2-user and private key. 
+
